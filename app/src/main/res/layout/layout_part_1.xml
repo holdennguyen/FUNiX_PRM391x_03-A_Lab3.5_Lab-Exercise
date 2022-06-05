@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/rlTopContainer">
+
+        <TextView
+            android:text="@string/top_left_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tvTopLeft" />
+
+        <TextView
+            android:text="@string/below_1_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTopLeft"
+            android:layout_alignLeft="@+id/tvTopLeft"
+            android:background="@android:color/holo_blue_light"
+            android:layout_alignRight="@+id/tvTopLeft"
+            android:id="@+id/tvBelow" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnTopRight"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@string/top_right_lbl"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/tvBelowRl"
+        android:text="@string/below_2_lbl"
+        />
+
+
+</LinearLayout>

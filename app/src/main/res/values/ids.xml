@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="llPaddingMarginGravity" type="id" />
+    <item name="tvFirst" type="id" />
+    <item name="tvSecond" type="id" />
+</resources>

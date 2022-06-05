@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llPaddingMarginGravity"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingLeft="@dimen/small_padding"
+        android:paddingTop="@dimen/large_padding"
+        android:layout_marginBottom="@dimen/large_margin"
+        android:id="@+id/tvFirst"
+        android:text="@string/first_text_lbl"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:paddingTop="@dimen/small_padding"
+        android:layout_marginTop="@dimen/large_margin"
+        android:id="@+id/tvSecond"
+        android:text="@string/second_text_lbl"
+        android:background="@android:color/holo_orange_light" />
+
+</LinearLayout>

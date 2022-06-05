@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab Exercise</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Strings for part 1-->
+    <string name="top_left_lbl">top left</string>
+    <string name="below_1_lbl">below</string>
+    <string name="top_right_lbl">top right</string>
+    <string name="below_2_lbl">text below relative layout</string>
+
+
+    <!--Strings for part 2-->
+    <string name="btn_not_pressed_lbl">Click me</string>
+
+    <!--Strings for part 3-->
+    <string name="first_text_lbl">First</string>
+    <string name="second_text_lbl">Second</string>
+</resources>
